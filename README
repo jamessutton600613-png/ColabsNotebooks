@@ -1,75 +1,101 @@
-# Computational Archive — GQR / GC Programme Notebooks
+# Phase 3 — Quantum Memory / AFC / Operational Extensions (Notebooks 300–310)
 
-This repository contains the working computational notebooks underpinning
-the GQR (Geometry–Quantum Resonator), QGE (Quantum Geometry Engine),
-and GC-arc (Germinal Centre Governance) research programmes.
+This directory contains working research notebooks that directly supported:
 
-These notebooks are archived for transparency and reproducibility.
-They are not structured as polished software packages.
+- GQR-43 (AFC1) — Regime-resolved bandwidth robustness  
+- GQR-44 (AFC2) — Ridge-drift tolerance law  
+- GQR-45 (AFC3) — Geometry–Coherence coupling  
+- GQR-46 (AFC4) — Admissibility architecture / control envelope  
+- GQR-47 — Operational channel admissibility and nonlocal deviation  
+- GC_arc12 — Governed diversification / adaptive computation controller
 
----
-
-## Repository Structure
-
-The notebooks fall into three broad historical phases:
-
-### 1. Origin-of-Life Simulations (Approx. 0–200)
-
-Early exploratory simulations investigating ordering, accessibility,
-and environmental cycling prior to formalisation of the GQR framework.
-
-These simulations informed conceptual development but did not directly
-generate published figures.
+These notebooks are **figure-generation, parameter sweep, and Monte Carlo evidence-pack engines** underlying those papers.
 
 ---
 
-### 2. Programme-Building Notebooks (Approx. 200–300)
+## Notebook Mapping
 
-These notebooks generated figures, simulations, and numerical outputs
-for papers listed in the canonical Programme Index:
+### Untitled304.ipynb  
+Preliminary cavity response modelling and reflectivity-phase structure scans.
 
-- GQR series
-- GC-arc series
-- AFC (Atomic Frequency Comb) quantum memory papers
-
-Where possible, figure numbers in publications correspond to code
-sections within these notebooks.
+Supports:
+- GQR-43 (AFC1)
+- GQR-44 (ridge drift sensitivity)
 
 ---
 
-### 3. Experimental / Scratch / GPU Workflows
+### Untitled305.ipynb  
+Cavity field propagation model (`fp_cavity_response`) including slab absorption proxy and internal phase structure.
 
-Includes:
-
-- Numerical testing
-- Parameter sweeps
-- GPU experiments
-- Preliminary or incomplete simulations
-
-These are retained for transparency but may contain exploratory artefacts.
+Supports:
+- GQR-44 (dimensionless ridge-drift tolerance)
+- GQR-45 (geometry–coherence coupling)
 
 ---
 
-## Important Notes
+### Untitled306.ipynb  
+Intensity–delta scanning over angular and population parameters.
 
-- These notebooks represent working research artefacts.
-- Minor inconsistencies, redundant cells, or exploratory remnants may exist.
-- Published papers (Zenodo DOIs) should be treated as the authoritative source.
-- The notebooks are provided for methodological transparency rather than
-  turnkey reproducibility.
+Operational deviation exploration prior to formalisation in:
 
----
-
-## Canonical Programme Index
-
-For structured paper ordering and conceptual dependency:
-
-See:
-https://github.com/jamessutton600613-png/GQR/blob/main/Programme_Index.md
+- GQR-47 (Operational admissibility framework)
 
 ---
 
-## Licensing
+### Untitled307.ipynb  
+Extended admissibility / intensity response surface modelling.
 
-Code and notebooks are released for research and academic inspection.
-For commercial or patent-related enquiries, please contact the author directly.
+Supports:
+- GQR-45
+- GQR-47
+
+---
+
+### Copy_of_Untitled307.ipynb  
+Variant sweep used to stabilise parameter regime before figure export.
+
+Internal validation notebook.
+
+---
+
+### Untitled308.ipynb  
+Layer-2 controller Monte Carlo evidence pack generation.
+
+Writes:
+- `layer2_controller_mc.csv`
+
+Supports:
+- GC_arc12 (governed diversification)
+- Adaptive computation control layer formalisation
+
+---
+
+### Untitled309.ipynb  
+Joint success-rate Monte Carlo simulation.
+
+Supports:
+- GC_arc12
+- Constraint-governed optimisation validation
+
+---
+
+### Untitled310.ipynb  
+Consolidated parameter exploration for AFC + admissibility cross-coupling.
+
+Supports:
+- GQR-46 (control envelope expansion)
+- GQR-47
+
+---
+
+## Status
+
+These notebooks are:
+
+- Reproducible computational artefacts
+- Raw research engines
+- Not publication-polished
+
+The canonical paper sequence is defined in the Programme Index of the GQR repository.
+
+This folder represents the computational substrate for Phase 3 of the programme.
