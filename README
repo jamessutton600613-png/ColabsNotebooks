@@ -1,0 +1,75 @@
+# Computational Archive — GQR / GC Programme Notebooks
+
+This repository contains the working computational notebooks underpinning
+the GQR (Geometry–Quantum Resonator), QGE (Quantum Geometry Engine),
+and GC-arc (Germinal Centre Governance) research programmes.
+
+These notebooks are archived for transparency and reproducibility.
+They are not structured as polished software packages.
+
+---
+
+## Repository Structure
+
+The notebooks fall into three broad historical phases:
+
+### 1. Origin-of-Life Simulations (Approx. 0–200)
+
+Early exploratory simulations investigating ordering, accessibility,
+and environmental cycling prior to formalisation of the GQR framework.
+
+These simulations informed conceptual development but did not directly
+generate published figures.
+
+---
+
+### 2. Programme-Building Notebooks (Approx. 200–300)
+
+These notebooks generated figures, simulations, and numerical outputs
+for papers listed in the canonical Programme Index:
+
+- GQR series
+- GC-arc series
+- AFC (Atomic Frequency Comb) quantum memory papers
+
+Where possible, figure numbers in publications correspond to code
+sections within these notebooks.
+
+---
+
+### 3. Experimental / Scratch / GPU Workflows
+
+Includes:
+
+- Numerical testing
+- Parameter sweeps
+- GPU experiments
+- Preliminary or incomplete simulations
+
+These are retained for transparency but may contain exploratory artefacts.
+
+---
+
+## Important Notes
+
+- These notebooks represent working research artefacts.
+- Minor inconsistencies, redundant cells, or exploratory remnants may exist.
+- Published papers (Zenodo DOIs) should be treated as the authoritative source.
+- The notebooks are provided for methodological transparency rather than
+  turnkey reproducibility.
+
+---
+
+## Canonical Programme Index
+
+For structured paper ordering and conceptual dependency:
+
+See:
+https://github.com/jamessutton600613-png/GQR/blob/main/Programme_Index.md
+
+---
+
+## Licensing
+
+Code and notebooks are released for research and academic inspection.
+For commercial or patent-related enquiries, please contact the author directly.
