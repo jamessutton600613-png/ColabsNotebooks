@@ -1,101 +1,48 @@
-# Phase 3 — Quantum Memory / AFC / Operational Extensions (Notebooks 300–310)
+# Computational Archive — GQR / QGE / GC-arc Notebooks
 
-This directory contains working research notebooks that directly supported:
+This repository is an archival home for **working Colab/Jupyter notebooks** used during development of the
+GQR (Gated Quantum Resonator), QGE (Quantum Geometry Engine), and GC-arc programmes.
 
-- GQR-43 (AFC1) — Regime-resolved bandwidth robustness  
-- GQR-44 (AFC2) — Ridge-drift tolerance law  
-- GQR-45 (AFC3) — Geometry–Coherence coupling  
-- GQR-46 (AFC4) — Admissibility architecture / control envelope  
-- GQR-47 — Operational channel admissibility and nonlocal deviation  
-- GC_arc12 — Governed diversification / adaptive computation controller
+These notebooks are retained for transparency and reproducibility.  
+They are **not packaged software** and may contain exploratory cells, redundant code, or partially cleaned runs.
 
-These notebooks are **figure-generation, parameter sweep, and Monte Carlo evidence-pack engines** underlying those papers.
+For the canonical paper ordering and conceptual dependency chain, see:
 
----
-
-## Notebook Mapping
-
-### Untitled304.ipynb  
-Preliminary cavity response modelling and reflectivity-phase structure scans.
-
-Supports:
-- GQR-43 (AFC1)
-- GQR-44 (ridge drift sensitivity)
+- Programme Index (GQR): https://github.com/jamessutton600613-png/GQR/blob/main/Programme_Index.md
 
 ---
 
-### Untitled305.ipynb  
-Cavity field propagation model (`fp_cavity_response`) including slab absorption proxy and internal phase structure.
+## Directory structure
 
-Supports:
-- GQR-44 (dimensionless ridge-drift tolerance)
-- GQR-45 (geometry–coherence coupling)
+### `00-182_OriginOfLife/`
+Early exploratory simulations (origin-of-life / ordering / cycling).  
+These notebooks informed concept development but **did not necessarily generate published figures**.
 
----
+### `183-299_Programme/`
+Programme-building notebooks that generated results, figures, or numerical sweeps for the main GQR / GC programme index
+(including AOI/QGE transport work and associated figure pipelines).
 
-### Untitled306.ipynb  
-Intensity–delta scanning over angular and population parameters.
+### `Phase3_QuantumMemory_300plus/`
+Phase 3 notebooks (300–310+) supporting the **AFC quantum memory** series and **operational admissibility / nonlocal deviation**
+work (and associated control-layer evidence packs).
 
-Operational deviation exploration prior to formalisation in:
+This folder has its own README mapping notebooks to the relevant papers.
 
-- GQR-47 (Operational admissibility framework)
-
----
-
-### Untitled307.ipynb  
-Extended admissibility / intensity response surface modelling.
-
-Supports:
-- GQR-45
-- GQR-47
+### `Misc_Unnumbered/`
+Scratch notebooks, variants, GPU/TPU tests, and unclassified artefacts retained for completeness.
 
 ---
 
-### Copy_of_Untitled307.ipynb  
-Variant sweep used to stabilise parameter regime before figure export.
+## Notes on reproducibility
 
-Internal validation notebook.
-
----
-
-### Untitled308.ipynb  
-Layer-2 controller Monte Carlo evidence pack generation.
-
-Writes:
-- `layer2_controller_mc.csv`
-
-Supports:
-- GC_arc12 (governed diversification)
-- Adaptive computation control layer formalisation
+- Notebooks are **research artefacts**: some runs may rely on local file uploads (CSV/NPZ), Colab session state,
+  or manual figure export steps.
+- Published preprints (Zenodo DOIs) are the authoritative record of the results and interpretations.
+- Where possible, notebooks are grouped chronologically by programme phase to preserve provenance.
 
 ---
 
-### Untitled309.ipynb  
-Joint success-rate Monte Carlo simulation.
+## Licensing / IP
 
-Supports:
-- GC_arc12
-- Constraint-governed optimisation validation
-
----
-
-### Untitled310.ipynb  
-Consolidated parameter exploration for AFC + admissibility cross-coupling.
-
-Supports:
-- GQR-46 (control envelope expansion)
-- GQR-47
-
----
-
-## Status
-
-These notebooks are:
-
-- Reproducible computational artefacts
-- Raw research engines
-- Not publication-polished
-
-The canonical paper sequence is defined in the Programme Index of the GQR repository.
-
-This folder represents the computational substrate for Phase 3 of the programme.
+Code and notebooks are shared for academic inspection and reproducibility.  
+Patent-related material exists in the broader programme; for commercial/IP enquiries, contact the author directly.
