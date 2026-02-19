@@ -1,6 +1,6 @@
 # Phase 3 — Quantum Memory Extensions (300–310)
 
-New notebooks (300–310) pending sorting into three technical threads:
+New notebooks (304–310) pending sorting into three technical threads:
 
 - **AFC / cavity quantum memory** (bandwidth, cavity response, ridge drift)
 - **FAD / ordering** (chemistry-side ordering simulations where relevant)
